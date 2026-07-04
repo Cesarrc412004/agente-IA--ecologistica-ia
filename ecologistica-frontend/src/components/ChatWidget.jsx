@@ -30,7 +30,7 @@ export default function ChatWidget() {
 
         try {
         // 2. Realizar la petición HTTP POST a tu servidor local
-        const respuestaServidor = await fetch('http://localhost:5000/api/chat', {
+        const respuestaServidor = await fetch('https://agente-ia-ecologistica-ia.vercel.app/api/chat', {
             method: 'POST',
             headers: {
             'Content-Type': 'application/json',
